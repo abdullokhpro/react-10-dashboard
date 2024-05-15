@@ -14,7 +14,6 @@ const ManageProducts = () => {
         <span>{el.brand}</span>
       </td>
       <td className="table__data">{el.stock}</td>
-      <td className="table__data table__green">{el.rating}</td>
       <td className="table__data table__red">{el.title}</td>
       <td className="table__data">603 555-0123</td>
     </tr>
