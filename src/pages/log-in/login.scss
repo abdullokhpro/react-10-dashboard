@@ -1,0 +1,41 @@
+.log-in {
+  background-color: #363740;
+  height: 100vh;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 100px;
+  }
+
+  &__input {
+    width: 500px;
+    padding: 10px 5px;
+  }
+
+  &__form__btn {
+    padding: 10px 0;
+
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+
+  &__btn {
+    padding: 10px 10px;
+    border-radius: 5px;
+
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}
